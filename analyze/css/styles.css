@@ -1,14 +1,21 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+  Student Name: Andrew Perel
+	File Name: styles.css
+	Current Date: 3/4/2024
 */
+
+/* STYLES BEGIN HERE*/
 
 /* CSS reset */
 body, header, nav, main, footer, img, h1, h3, ul {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+/* Style rule hides the tablet-desktop class */
+.tablet-desktop {
+  visibility: hidden;
 }
 
 /* Style rule for body and images */
@@ -38,6 +45,7 @@ nav {
 
 nav ul {
     text-align: center;
+    list-style-type: none;
 }
 
 nav li {
@@ -45,6 +53,7 @@ nav li {
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
     padding: 3%;
+    display: inline-block;
 }
 
 nav li a {
@@ -62,6 +71,29 @@ main {
 
 main p {
     font-size: 1.25em;
+}
+
+.btn {
+  background-color: #375f1b;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn a {
+  color: #ebf7e3;
+  text-decoration: none;
+  font-size: 1.25em;
+  display: block;
+}
+
+.corner {
+  border-radius: 12px;
 }
 
 /* Style rules for footer content */
